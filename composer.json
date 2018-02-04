@@ -9,7 +9,9 @@
         }
     ],
     "autoload": {
-        "Affinity4\\Promise\\": "src/"
+        "psr-4": {
+            "Affinity4\\Promise\\": "src/"
+        }
     },
     "require": {
         "react/promise": "^2.5"
