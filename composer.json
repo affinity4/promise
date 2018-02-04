@@ -1,0 +1,17 @@
+{
+    "name": "affinity4/promise",
+    "description": "Wrapper for ReactPHP Promise/A library to offer traits to extends classes whose methods return promises",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Watts",
+            "email": "luke@affinity4.ie"
+        }
+    ],
+    "autoload": {
+        "Affinity4\\Promise\\": "src/"
+    },
+    "require": {
+        "react/promise": "^2.5"
+    }
+}
